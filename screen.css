@@ -1,5 +1,12 @@
 /* Apps CSS */
 
+body.sect-home #masthead {
+	background: #111;
+	background: -webkit-gradient(linear, 0 50%, 0 100%, from(#111), color-stop(0.2, #222), to(#efefef));
+	margin: 0 -16px 0 -16px;
+	min-height: 250px;
+}
+
 .app-name {
 	color: #666688;
 }
@@ -23,14 +30,14 @@ p.download-block span.download-link {
 	right: 28px;
 	text-indent: -11000em;
 }
-p.download-block span.download-link a:link, p.download-block span.download-link a:visited {
+body.droplook p.download-block span.download-link a:link, body.droplook p.download-block span.download-link a:visited {
 	display: block;
 	width: 242px;
 	height: 53px;
 	background: url('images/droplook/buttons.png') 0 0 no-repeat;
 	text-indent: -11000em;
 }
-p.download-block span.download-link a:hover, p.download-block span.download-link a:active {
+body.droplook p.download-block span.download-link a:hover, body.droplook p.download-block span.download-link a:active {
 	background-position: 0 -53px;
 }
 p.download-block span.download-info {
@@ -53,7 +60,7 @@ p.download-block span.download-info {
 	height: 21px;
 	background: url('images/droplook/quip.png') no-repeat;
 } */
-body.droplook h1 {
+body.sect-home.droplook h1 {
 	position: absolute;
 	top: 0;
 	left: 0;
